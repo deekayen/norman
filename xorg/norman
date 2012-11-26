@@ -1,0 +1,46 @@
+// Norman keyboard layout symbols for xkb on X.Org Server 7.x
+// Designed by David Norman. http://norman.deekayen.net
+
+partial alphanumeric_keys
+xkb_symbols "norman" {
+
+    name[Group1]= "English (Norman)";
+
+    include "us(basic)"
+
+    // Alphanumeric section
+    key <AD01> {  [   q,  Q   ] };
+    key <AD02> {  [   w,  W   ] };
+    key <AD03> {  [   d,  D   ] };
+    key <AD04> {  [   f,  F   ] };
+    key <AD05> {  [   k,  K   ] };
+    key <AD06> {  [   j,  J   ] };
+    key <AD07> {  [   u,  U   ] };
+    key <AD08> {  [   h,  H   ] };
+    key <AD09> {  [   l,  L   ] };
+    key <AD10> {  [   semicolon,  colon   ] };
+
+    key <AC01> {  [   a,  A   ] };
+    key <AC02> {  [   s,  S   ] };
+    key <AC03> {  [   e,  E   ] };
+    key <AC04> {  [   t,  T   ] };
+    key <AC05> {  [   g,  G   ] };
+    key <AC06> {  [   y,  Y   ] };
+    key <AC07> {  [   n,  N   ] };
+    key <AC08> {  [   i,  I   ] };
+    key <AC09> {  [   o,  O   ] };
+    key <AC10> {  [   r,  R   ] };
+
+    key <AB01> {  [   z,  Z   ] };
+    key <AB02> {  [   x,  X   ] };
+    key <AB03> {  [   c,  C   ] };
+    key <AB04> {  [   v,  V   ] };
+    key <AB05> {  [   b,  B   ] };
+    key <AB06> {  [   p,  P   ] };
+    key <AB07> {  [   m,  M   ] };
+    // End alphanumeric section
+
+    key <CAPS> {  [   BackSpace,   Caps_Lock   ] };
+
+    include "level3(ralt_switch)"
+};
