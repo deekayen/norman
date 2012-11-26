@@ -116,9 +116,8 @@
 
 <p>When designing Norman, the first task was to find the most frequently used characters in US English that I am likely to type. I am not likely to type any large volume of <em>Alice in Wonderland</em>, as is so commonly used as sample input to analyses. I took a sample of my own writing, 5,755 words using 33,319 characters to decide which characters I type commonly. The Asset layout did a similar study and there are websites like letterfrequency.org that list the outcomes of more generic frequency studies. My frequency outcome was similar to other frequency studies:</p>
 
-<blockquote>
-<p>etoainsr ldhu cmpgwfybvkxjqz</p>
-</blockquote>
+<pre><code>etoainsr ldhu cmpgwfybvkxjqz
+</code></pre>
 
 <p>The spacing was added for emphasis. The Norman layout places each of the most common 8 letters somewhere in the proper home row. Their exact location in the home row is guided by their <strong>QWERTY finger</strong>. Only the letters T and R were in contention for shifting to an alternate finger. The lesser frequency of R guided it to the weak pinky finger and results in the first of 4 letters to move to a different finger than would have been used in QWERTY. This meant adopting the model of several other layouts like Asset, Colemak, and Workman, to shift semicolon out of the home row and to the even weaker pinky position.</p>
 
@@ -126,9 +125,8 @@
 
 <p>From this point forward, the remaining list of characters is as follows in order of frequency:</p>
 
-<blockquote>
-<p>mpgwfybkj</p>
-</blockquote>
+<pre><code>mpgwfybkj
+</code></pre>
 
 <p>Note, the common shortcut keys are not considered in the list. They are fixed in the layout. Regardless of their frequency, their added efficiency by saving typing with their operations, or by not introducing additional finger stretching disqualifies them from moving.</p>
 
@@ -136,9 +134,62 @@
 
 <p>The process for the rest of the letters follows the same process. Evaluate the letter's QWERTY finger and decide the optimal location for it to be pressed, avoiding the center column as much as possible.</p>
 
-<h4>Other metrics</h4>
+<h2>Norman by other's metrics</h2>
 
-<p>Digrams, finger frequency, etc.</p>
+<h3>Workman key cap scores</h3>
+
+<p>Forgoing sophisticated mathematic models, I re-ran a similar Carpalx-style ranking test using the scoring used per key cap in the Workman layout. Every time a letter is used, it adds to a simple counter. In scoring a body of literature with Workman, letter S adds 1 point to the total, D is 2 points, and so on.</p>
+
+<p><img src="https://raw.github.com/deekayen/workman/71cf354a09329600a2b777a09714ad9d0575ee80/keyboard_graded.png" alt="Graded workman keys"></p>
+
+<p>When scoring the following sentence, lower is better:</p>
+
+<pre><code>The quick brown fox jumped over the lazy dog.
+</code></pre>
+
+<ul>
+<li>QWERTY: 90</li>
+<li>Asset: 71</li>
+<li>Capewell: 73</li>
+<li>Colemak: 73</li>
+<li>Dvorak: 62</li>
+<li>Klausler: 76</li>
+<li>Norman: 70</li>
+<li>QGMLWY: 69</li>
+<li>Workman: 68</li>
+</ul><p>For this analysis, the following were concatenated into a single document: <a href="http://drupal.org/drupal-7.17-release-notes">Drupal 7.17</a>, <a href="http://www.amazon.com/gp/product/B002MQYOFW/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B002MQYOFW&amp;linkCode=as2&amp;tag=deekayen-20">The Hunger Games by Suzanne Collins</a>, <a href="http://www.amazon.com/gp/product/B003ZK5EE4/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B003ZK5EE4&amp;linkCode=as2&amp;tag=deekayen-20">CISSP 5th ed exam guide by Shon Harris</a>, <a href="http://www.amazon.com/gp/product/B005DJ0NU0/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B005DJ0NU0&amp;linkCode=as2&amp;tag=deekayen-20">The Montessori Method by Maria Montessori</a>, the front page of <a href="http://slashdot.org">Slashdot</a> on November 15, 2012, a sample from the global feed of <a href="https://alpha.app.net/global/">app.net</a>.</p>
+
+<p>By counting the frequency of each character in the combined text, the letter frequency was the following:</p>
+
+<pre><code>etaoinsr hd lcumfpygwbvkxjqz
+</code></pre>
+
+<p>Spaces were added for emphasis. Note, the first list of 8 letters are in the home row of Asset. The first 10 letters account for 53% of all characters typed, excluding spaces and punctuation.</p>
+
+<ul>
+<li>QWERTY: 43242241</li>
+<li>Asset: 24492517</li>
+<li>Capewell: 23919796</li>
+<li>Colemak: 24089632</li>
+<li>Dvorak: 27437680</li>
+<li>Klausler: 26058322</li>
+<li>Norman: 22413142</li>
+<li>QGMLWY: 25492119</li>
+<li>
+<p>Workman: 22426474</p>
+
+<p><strong>Winner: Norman</strong></p>
+</li>
+</ul><p>To try some analysis of your own, I <a href="https://gist.github.com/4085169">posted the PHP script I wrote for examining various text inputs in a gist</a>.</p>
+
+<h2>Who should learn Asset?</h2>
+
+<ul>
+<li>People have or think they might get repetitive strain injury (RSI) or carpal tunnel syndrome (CTS).</li>
+<li>Programmers and writers with wrist pain.</li>
+<li>Journalists, bloggers, secretaries, students, life hackers, authors.</li>
+<li>Anyone who spends over 10 hours per week at the keyboard.</li>
+</ul>
       </section>
       <footer>
         <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
