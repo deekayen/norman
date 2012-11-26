@@ -1,0 +1,1 @@
+This drill will artifically generate sentences.  Though the sentences may not make sense, they are unique combinations that make for good practice.ABCDEFGHIJKLMNOPQRSTUVWXYZ/,.;'1234567890<paragraphmarker>0

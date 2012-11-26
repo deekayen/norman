@@ -1,0 +1,1 @@
+This drill will generate word groups and punctuation which resemble sentences in structure.  They are unique combinations that make for good practice.  The length of this drill will be about 1,000 keystrokes.ABCDEFGHIJKLMNOPQRSTUVWXYZ/,.;'<paragraphmarker>0
