@@ -15,6 +15,12 @@ Norman keyboard layout packaged as a keylayout bundle includes the alternate ico
 
 ## Tools
 
+Remap the caps lock key to delete or forward delete with PCKeyboardHack:
+http://pqrs.org/macosx/keyremap4macbook/pckeyboardhack.html
+
+Remap any other key with KeyRemap4MacBook:
+http://pqrs.org/macosx/keyremap4macbook/
+
 Ukelele to create the layout:
 http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele
 
