@@ -13,3 +13,10 @@ Norman keyboard layout packaged as a keylayout bundle includes the alternate ico
  * Make sure that the Show input menu in menu bar box is also checked.
  * To switch quickly between layouts you can press Command+Space or Command+Option+Space. Note, this hotkey combination conflicts with the default settings for showing Spotlight. Check your settings in System Preferences, Keyboard, Keyboard Shortcuts tab, Spotlight against Keyboard & Text Input.
 
+## Tools
+
+Ukelele to create the layout:
+http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele
+
+iConvert Icons to make the NO menu icon:
+http://iconverticons.com/
