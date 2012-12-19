@@ -18,16 +18,20 @@
     <![endif]-->
 
   </head>
-  <body>
-    <div class="wrapper">
+  <body itemscope itemtype="http://schema.org/CreativeWork">
+    <div class="wrapper" itemscope itemtype="http://schema.org/SoftwareApplication">
       <header>
-        <h1 class="header">Norman</h1>
+        <h1 class="header" itemprop="name">Norman</h1>
         <p class="header">Common sense alternative to QWERTY</p>
+        <meta itemprop="countriesSupported" content="US" />
+        <meta itemprop="fileSize" content="1.7MB" />
+        <meta itemprop="isFamilyFriendly" content="1" />
+        <meta itemprop="dateCreated" content="2012-11-23" />
 
         <ul>
-          <li class="download"><a class="buttons" href="https://github.com/deekayen/norman/zipball/master">Download ZIP</a></li>
-          <li class="download"><a class="buttons" href="https://github.com/deekayen/norman/tarball/master">Download TAR</a></li>
-          <li><a class="buttons github" href="https://github.com/deekayen/norman">View On GitHub</a></li>
+          <li class="download"><a itemprop="downloadURL" class="buttons" href="https://github.com/deekayen/norman/zipball/master">Download ZIP</a></li>
+          <li class="download"><a itemprop="downloadURL" class="buttons" href="https://github.com/deekayen/norman/tarball/master">Download TAR</a></li>
+          <li><a itemprop="discussionURL" class="buttons github" href="https://github.com/deekayen/norman">View On GitHub</a></li>
         </ul>
 
 <!-- Place this tag where you want the +1 button to render. -->
@@ -43,13 +47,13 @@
 </script>
       </header>
       <section>
-        <h1>Norman keyboard layout</h1>
+        <h1 itemprop="headline">Norman keyboard layout</h1>
 
-<p>Norman is a fully optimized <strong>alternative keyboard layout to <a href="http://en.wikipedia.org/wiki/QWERTY">QWERTY</a></strong>. It <strong>maintains keyboard shortcuts</strong> for the letters QWASZXCV and <strong>keeps 22/26 letters</strong> in the normal use pattern of their QWERTY finger, if not the original QWERTY location.</p>
+<p>Norman is a fully optimized <strong>alternative keyboard layout to <a href="http://en.wikipedia.org/wiki/QWERTY">QWERTY</a></strong> for touch typing in <span itemprop="inLanguage">English</span>. It <strong>maintains keyboard shortcuts</strong> for the letters QWASZXCV and <strong>keeps 22/26 letters</strong> in the normal use pattern of their QWERTY finger, if not the original QWERTY location.</p>
 
-<p><img src="https://raw.github.com/deekayen/norman/a26898ba00583afcff9349c538569b78a9dc7ea4/norman_layout.png" alt="Norman keyboard layout"></p>
+<p><img itemprop="image" src="https://raw.github.com/deekayen/norman/a26898ba00583afcff9349c538569b78a9dc7ea4/norman_layout.png" alt="Norman keyboard layout" title="Norman keyboard layout"></p>
 
-<p>Norman is available for Windows, Mac OSX, Linux, BSD, and Solaris with add-ons from this project. It also includes drill files for practicing with <a href="http://macinmind.com/?area=app&amp;app=masterkey&amp;pg=info">Master Key</a> and <a href="http://type-fu.com/">Type Fu</a>.</p>
+<p itemprop="offers" itemscope itemtype="http://schema.org/Offer">Norman is <span itemprop="price">free</span> and available for <span itemprop="operatingSystems">Windows, Mac OSX, Linux, BSD, and Solaris</span> with add-ons from this project. It also includes drill files for practicing with <a href="http://macinmind.com/?area=app&amp;app=masterkey&amp;pg=info">Master Key</a> and <a href="http://type-fu.com/">Type Fu</a>.<meta itemprop="priceCurrency" content="USD" /><link itemprop="availability" href="http://schema.org/InStock" /></p>
 
 <h1>Setting the framework</h1>
 
@@ -70,7 +74,7 @@
 
 <p>Colemak and Asset are similar layouts, but in the design of Asset, the same-finger assignment from QWERTY is raised as a higher concern in the design. Though Colemak is touted for its supposed ease of switching from QWERTY, Asset keeps 20/26 letters on the same finger, whereas Colemak only keeps 15/26. As the Carpalx study shows, the theoretical loss of efficiency by keeping the QWERTY same-finger design is fractional, perhaps inconsequential.</p>
 
-<p><img src="https://raw.github.com/deekayen/norman/1a65b3f9997211638f58caa22b0e8ee96a867e9b/norman_movement.png" alt="Norman key movement"></p>
+<p><img itemprop="image" src="https://raw.github.com/deekayen/norman/1a65b3f9997211638f58caa22b0e8ee96a867e9b/norman_movement.png" alt="Norman key movement" title="Norman key movement"></p>
 
 <p>Blue arrows are keys that stayed with the same QWERTY finger in Norman. Green are keys on the same hand, but different fingers, and yellow keys changed to a different hand.</p>
 
@@ -171,7 +175,7 @@
 
 <p>Forgoing sophisticated mathematic models, I re-ran a similar Carpalx-style ranking test using the scoring used per key cap in the Workman layout. Every time a letter is used, it adds to a simple counter. In scoring a body of literature with Workman, letter S adds 1 point to the total, D is 2 points, and so on.</p>
 
-<p><img src="https://raw.github.com/deekayen/workman/71cf354a09329600a2b777a09714ad9d0575ee80/keyboard_graded.png" alt="Graded workman keys"></p>
+<p><img src="https://raw.github.com/deekayen/workman/71cf354a09329600a2b777a09714ad9d0575ee80/keyboard_graded.png" alt="Graded workman keys" title="Graded workman keys"></p>
 
 <p>When scoring the following sentence, lower is better:</p>
 
@@ -246,13 +250,13 @@
 
 <p>This heat map was generated using the <a href="https://gist.github.com/4148741">1,000 most common US English words</a>:</p>
 
-<p><img src="https://raw.github.com/deekayen/norman/a5f0988cfe2ad77ce18f46691700df8bd706b862/norman_heat_map.png" alt="Heat map of the 1,000 most common US English words using Norman keyboard layout"></p>
+<p><img itemprop="image" src="https://raw.github.com/deekayen/norman/a5f0988cfe2ad77ce18f46691700df8bd706b862/norman_heat_map.png" alt="Heat map of the 1,000 most common US English words using Norman keyboard layout" title="Heat map of the 1,000 most common US English words using Norman keyboard layout"></p>
 
 <h3>Anecdotal</h3>
 
 <p>An excerpt from a chat about Norman layout:</p>
 
-<blockquote>
+<blockquote itemprop="reviews" itemscope itemtype="http://schema.org/Review">
 <p>Norman User X: I am at about 35wpm at Level 9 in Type Fu, with Norman layout</p>
 
 <p>David Norman: is that an endorsement vs workman?</p>
@@ -307,13 +311,13 @@ ASETGYNIOR”
 
 <h2>Mac layout examples</h2>
 
-<p><img src="https://www.evernote.com/shard/s236/sh/015fbe96-642d-4959-b8f5-3b6874996d8c/202f5da812384e57ff7c67a0171bdefa/res/9a39defd-1561-40c5-bccb-0336c3dd8f37/skitch.png" alt="Norman layout in base state"></p>
+<p><img itemprop="image" src="https://www.evernote.com/shard/s236/sh/015fbe96-642d-4959-b8f5-3b6874996d8c/202f5da812384e57ff7c67a0171bdefa/res/9a39defd-1561-40c5-bccb-0336c3dd8f37/skitch.png" alt="Norman layout in base state" title="Norman layout in base state"></p>
 
-<p><img src="https://www.evernote.com/shard/s236/sh/6c168b3b-f37d-4af5-a373-5c4daa27a28b/2d5258ce5530f605fd882382162c01e8/res/e480339d-d22e-40f0-be74-4b4de6874b68/skitch.png" alt="Norman layout in Shift state"></p>
+<p><img itemprop="image" src="https://www.evernote.com/shard/s236/sh/6c168b3b-f37d-4af5-a373-5c4daa27a28b/2d5258ce5530f605fd882382162c01e8/res/e480339d-d22e-40f0-be74-4b4de6874b68/skitch.png" alt="Norman layout in Shift state" title="Norman layout in Shift state"></p>
 
-<p><img src="https://www.evernote.com/shard/s236/sh/8c62f665-155c-4618-abb8-df1f78adedd5/8c5d8e3cd4a1f94c6e14ab309ddcde03/res/ccc0cc17-6c38-413f-9795-bf36c2dd194c/skitch.png" alt="Norman layout in AltGr state"></p>
+<p><img itemprop="image" src="https://www.evernote.com/shard/s236/sh/8c62f665-155c-4618-abb8-df1f78adedd5/8c5d8e3cd4a1f94c6e14ab309ddcde03/res/ccc0cc17-6c38-413f-9795-bf36c2dd194c/skitch.png" alt="Norman layout in AltGr state" title="Norman layout in AltGr state"></p>
 
-<p><img src="https://www.evernote.com/shard/s236/sh/6812b19d-1380-41d4-a1a0-e2482d6997d2/6701b14ee08181375ca1b4c5abc9f2de/res/e0dc8edc-2a3a-40a0-b70e-103b0aef0400/skitch.png" alt="Norman layout in AltGr+Shift state"></p>
+<p><img itemprop="image" src="https://www.evernote.com/shard/s236/sh/6812b19d-1380-41d4-a1a0-e2482d6997d2/6701b14ee08181375ca1b4c5abc9f2de/res/e0dc8edc-2a3a-40a0-b70e-103b0aef0400/skitch.png" alt="Norman layout in AltGr+Shift state" title="Norman layout in AltGr+Shift state"></p>
 
 <h2>Norman-M (proposed mobile layout)</h2>
 
@@ -336,7 +340,8 @@ ASETGYNIOR”
 </ul>
       </section>
       <footer>
-        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+        <p><small>Shared by <a href="https://deekayen.net" itemprop="url" itemscope itemtype="http://schema.org/Person"><span itemprop="creator">David Norman</span></a></small></p>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a></small></p>
       </footer>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
