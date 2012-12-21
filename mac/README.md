@@ -15,6 +15,9 @@ Norman keyboard layout packaged as a keylayout bundle includes the alternate ico
 
 ## Tools
 
+Create an installer using Packages. The Norman.pkgproj file can be used to start it:
+http://s.sudre.free.fr/Software/Packages/about.html
+
 Remap the caps lock key to delete or forward delete with PCKeyboardHack:
 http://pqrs.org/macosx/keyremap4macbook/pckeyboardhack.html
 
