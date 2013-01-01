@@ -4,7 +4,7 @@ Norman will be added as an Input Source option to Language & Text in System Pref
 
 Norman is based on the US keyboard layout with the same dead keys moved to different locations.
 
-To uninstall the layout, remove the Norman.keylayout bundle in /Library/Keyboard Layouts/.
+To uninstall the layout, remove the Norman bundle from /Library/Keyboard Layouts/.
 
 Ukelele was used to create the layout:
 http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele
