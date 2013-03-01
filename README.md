@@ -17,12 +17,12 @@ https://s3.amazonaws.com/cf-templates-1uw2udo4oymvw-us-east-1/norman/Norman.dmg
 
 ### Shift ⇧
 
-![Norman Shift](images/norman_shift.png)
+![Norman Shift](images/norman_mac_shift.png)
 
 ### AltGR ⌥
 
-![Norman AltGr](images/norman_altgr.png)
+![Norman AltGr](images/norman_mac_altgr.png)
 
 ### Shift AltGR ⇧+⌥
 
-![Norman Shift AltGr](images/norman_shift_altgr.png)
+![Norman Shift AltGr](images/norman_mac_shift_altgr.png)
