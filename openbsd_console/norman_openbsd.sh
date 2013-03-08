@@ -25,7 +25,7 @@ wsconsctl keyboard.encoding=us  \
     keyboard.map+="keycode  20 =              k             K       asciitilde        asciitilde " \
     keyboard.map+="keycode  21 =              j             J       asciitilde        asciitilde " \
     keyboard.map+="keycode  22 =              u             U           uacute            Uacute " \
-    keyboard.map+="keycode  23 =              h             H       asciitilde        asciitilde " \
+    keyboard.map+="keycode  23 =              r             R       dead_grave        asciitilde " \
     keyboard.map+="keycode  24 =              l             L       asciitilde        asciitilde " \
     keyboard.map+="keycode  25 =      semicolon         colon       odiaeresis        Odiaeresis " \
     keyboard.map+="keycode  26 =    bracketleft     braceleft    guillemotleft        asciitilde " \
@@ -41,7 +41,7 @@ wsconsctl keyboard.encoding=us  \
     keyboard.map+="keycode  36 =              n             N           ntilde            Ntilde " \
     keyboard.map+="keycode  37 =              i             I           iacute            Iacute " \
     keyboard.map+="keycode  38 =              o             O           oacute            Oacute " \
-    keyboard.map+="keycode  39 =              r             R       dead_grave        asciitilde " \
+    keyboard.map+="keycode  39 =              h             H       asciitilde        asciitilde " \
     keyboard.map+="keycode  40 =     apostrophe      quotedbl           otilde            Otilde " \
                                                                                                    \
     keyboard.map+="keycode  44 =              z             Z               ae                AE " \

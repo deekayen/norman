@@ -1,5 +1,5 @@
 ! xmodmap for the Norman layout.
-! http://norman.deekayen.net
+! http://normanlayout.info
 ! https://github.com/deekayen/norman
 
 keycode  49 =        grave    asciitilde       dead_tilde        asciitilde            
@@ -23,7 +23,7 @@ keycode  27 =            f             F           atilde            Atilde
 keycode  28 =            k             K   dead_abovering        asciitilde            
 keycode  29 =            j             J          dstroke           Dstroke            
 keycode  30 =            u             U           uacute            Uacute            
-keycode  31 =            h             H       dead_caron        asciitilde            
+keycode  31 =            r             R       dead_grave        asciitilde            
 keycode  32 =            l             L          lstroke           Lstroke            
 keycode  33 =    semicolon         colon       odiaeresis        Odiaeresis            
 keycode  34 =  bracketleft     braceleft    guillemotleft             U2039            
@@ -39,7 +39,7 @@ keycode  43 =            y             Y       udiaeresis        Udiaeresis
 keycode  44 =            n             N           ntilde            Ntilde            
 keycode  45 =            i             I           iacute            Iacute            
 keycode  46 =            o             O           oacute            Oacute            
-keycode  47 =            r             R       dead_grave        asciitilde            
+keycode  47 =            h             H       dead_caron        asciitilde            
 keycode  48 =   apostrophe      quotedbl           otilde            Otilde            
                                                                                       
 keycode  52 =            z             Z               ae                AE            

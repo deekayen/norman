@@ -16,7 +16,7 @@ xkb_symbols "norman" {
     key <AD05> {  [   k,  K   ] };
     key <AD06> {  [   j,  J   ] };
     key <AD07> {  [   u,  U   ] };
-    key <AD08> {  [   h,  H   ] };
+    key <AD08> {  [   r,  R   ] };
     key <AD09> {  [   l,  L   ] };
     key <AD10> {  [   semicolon,  colon   ] };
 
@@ -29,7 +29,7 @@ xkb_symbols "norman" {
     key <AC07> {  [   n,  N   ] };
     key <AC08> {  [   i,  I   ] };
     key <AC09> {  [   o,  O   ] };
-    key <AC10> {  [   r,  R   ] };
+    key <AC10> {  [   h,  H   ] };
 
     key <AB01> {  [   z,  Z   ] };
     key <AB02> {  [   x,  X   ] };

@@ -1,1 +1,0 @@
-This drill will generate groups of words with the Norman keys ASETNIORDHWFULCVPMGY and return.  The length of this drill will be about 1,000 keystrokes.ASETNIORDHWFULCVPMGY.<paragraphmarker>0

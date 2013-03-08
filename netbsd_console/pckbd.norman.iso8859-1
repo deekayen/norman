@@ -25,7 +25,7 @@ keycode  19 =              f             F           atilde            Atilde
 keycode  20 =              k             K       asciitilde        asciitilde
 keycode  21 =              j             J       asciitilde        asciitilde
 keycode  22 =              u             U           uacute            Uacute
-keycode  23 =              h             H       asciitilde        asciitilde
+keycode  23 =              r             R       dead_grave        asciitilde
 keycode  24 =              l             L       asciitilde        asciitilde
 keycode  25 =      semicolon         colon       odiaeresis        Odiaeresis
 keycode  26 =    bracketleft     braceleft    guillemotleft        asciitilde
@@ -41,7 +41,7 @@ keycode  35 =              y             Y       udiaeresis        Udiaeresis
 keycode  36 =              n             N           ntilde            Ntilde
 keycode  37 =              i             I           iacute            Iacute
 keycode  38 =              o             O           oacute            Oacute
-keycode  39 =              r             R       dead_grave        asciitilde
+keycode  39 =              h             H       asciitilde        asciitilde
 keycode  40 =     apostrophe      quotedbl           otilde            Otilde
 
 keycode  44 =              z             Z               ae                AE

@@ -25,7 +25,7 @@
     { "type": "sign",          "finger": "indexLeft",       "signs": ["k", "K"]                                  },
     { "type": "sign",          "finger": "indexRight",      "signs": ["j", "J"]                                  },
     { "type": "sign",          "finger": "indexRight",      "signs": ["u", "U"]                                  },
-    { "type": "sign",          "finger": "middleRight",     "signs": ["h", "H"]                                  },
+    { "type": "sign",          "finger": "middleRight",     "signs": ["r", "R"]                                  },
     { "type": "sign",          "finger": "ringRight",       "signs": ["l", "L"]                                  },
     { "type": "sign",          "finger": "littleRight",     "signs": [";", ":"]                                  },
     { "type": "sign",          "finger": "littleRight",     "signs": ["[", "{"]                                  },
@@ -44,7 +44,7 @@
     { "type": "sign",          "finger": "indexRight",      "signs": ["n", "N"],         "homeKey": true         },
     { "type": "sign",          "finger": "middleRight",     "signs": ["i", "I"]                                  },
     { "type": "sign",          "finger": "ringRight",       "signs": ["o", "O"]                                  },
-    { "type": "sign",          "finger": "littleRight",     "signs": ["r", "R"]                                  },
+    { "type": "sign",          "finger": "littleRight",     "signs": ["h", "H"]                                  },
     { "type": "sign",          "finger": "littleRight",     "signs": ["'", "\""]                                 },
     { "type": "enter",         "finger": "littleRight",                                  "customWidth": 82       }
   ],
