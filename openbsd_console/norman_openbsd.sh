@@ -1,6 +1,6 @@
 #!/bin/sh
 # Norman layout script for OpenBSD console.
-# http://norman.deekayen.net
+# http://normanlayout.info
 # https://github.com/deekayen/norman
 
 wsconsctl keyboard.encoding=us  \

@@ -1,5 +1,5 @@
 // Norman keyboard layout symbols for xkb on X.Org Server 7.x
-// Designed by David Norman. http://norman.deekayen.net
+// Designed by David Norman. http://normanlayout.info
 
 partial alphanumeric_keys
 xkb_symbols "norman" {

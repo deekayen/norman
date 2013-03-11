@@ -1,6 +1,6 @@
 # $FreeBSD$
 # Based on FreeBSD's us.iso.kbd
-# http://norman.deekayen.net
+# http://normanlayout.info
 # https://github.com/deekayen/norman
 #                                                         alt
 # scan                       cntrl          alt    alt   cntrl lock
