@@ -1,5 +1,11 @@
 // Norman keyboard layout symbols for xkb on X.Org Server 7.x
-// Designed by David Norman. http://normanlayout.info
+// Written 11/23/2012, revised 3/7/2013 by David Norman http://normanlayout.info
+// To the extent possible under law, the author(s) have dedicated all
+// copyright and related and neighboring rights to this software to the
+// public domain worldwide. This software is distributed without any warranty.
+
+// You should have received a copy of the CC0 Public Domain Dedication along with this software.
+// If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 
 partial alphanumeric_keys
 xkb_symbols "norman" {
