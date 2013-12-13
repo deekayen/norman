@@ -247,7 +247,7 @@ G:S_LESSON9
 G:MENU
 
 *:MENU
-M: "ktouch lesson (/home/leonardo/src/norman/ktouch/norman.ktouch)"
+M: "norman keyboard layout lesson (norman.typ)"
  :S_LESSON1 "asetdrnioh"
  :S_LESSON2 "asetdrniohlc"
  :S_LESSON3 "asetdrniohlcum"
