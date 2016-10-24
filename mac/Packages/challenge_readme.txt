@@ -7,7 +7,7 @@ Norman is based on the US keyboard layout with the same dead keys moved to diffe
 To uninstall a layout, remove the relevant bundle in /Library/Keyboard Layouts/.
 
 Ukelele was used to create the layout:
-http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele
+http://scripts.sil.org/ukelele
 
-iConvert Icons to make the Arial menu icons from PNGs:
+iConvert Icons to make the NO menu icon from PNG:
 http://iconverticons.com/
