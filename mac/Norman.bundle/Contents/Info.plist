@@ -7,7 +7,28 @@
 	<key>CFBundleName</key>
 	<string>Norman</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.1</string>
+	<key>KLInfo_NOR</key>
+	<dict>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.norman.nor</string>
+		<key>TISIntendedLanguage</key>
+		<string>en-US</string>
+	</dict>
+	<key>KLInfo_NORM</key>
+	<dict>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.norman.norm</string>
+		<key>TISIntendedLanguage</key>
+		<string>en-US</string>
+	</dict>
+	<key>KLInfo_NORMA</key>
+	<dict>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.norman.norma</string>
+		<key>TISIntendedLanguage</key>
+		<string>en-US</string>
+	</dict>
 	<key>KLInfo_Norman</key>
 	<dict>
 		<key>TISInputSourceID</key>
