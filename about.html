@@ -155,7 +155,7 @@ What’s remarkable is that with only 12 keys you get most of the improvement of
 <p>The Norman layout was added to the <a href="http://mkweb.bcgsc.ca/carpalx/distribution/carpalx-0.12.tgz">carpalx-0.12.tgz</a> bundle after a review on the <a href="http://mkweb.bcgsc.ca/carpalx/?full_optimization">Carpalx full optimization</a> site. The Carpalx full optimization review concluded that when compared to a base layout of <em>qgmlwy</em>, Norman required 19.3% more effort. Norman scored a 1.992 relative to the 3.0 base score produced by QWERTY. However, the Norman layout begins optimization with different assumptions than the Carpalx layouts. First, the base corpus for Norman optimization are text files concatenated from things I actually typed, such as <a href="https://www.amazon.com/dp/B005NUFEJO">my dissertation</a>, <a href="https://github.com/deekayen/aidstoscoutmastership/">Aids to Scoutmastership by Lord Baden-Powell of Gilwell</a>, and some playbooks and roles I wrote for <a href="https://www.ansible.com/">Ansible</a>.</p>
 <p>Second, rather than just maintaining positions for ZXCV, Norman adds static positioning for QAS and moves the semicolon up to its Colemak position. This was my personal preference to maintain the Quit, Save, and Select All keyboard shortcuts and has nothing to do with their optimal typing location for comparing with long corpus text. It's my belief that maintaining shortcuts can help with the frustration of adopting an alternate keyboard.</p>
 <p>A keyboard study was published in <a href="https://www.springer.com/us/book/9783319416939">Advances in Physical Ergonomics and Human Factors: Proceedings of the AHFE 2016 International Conference on Physical Ergonomics and Human Factors, July 27-31, 2016, Walt Disney World®, Florida, USA</a>, titled <em>Ergonomic Keyboard Layout Designed for the Filipino Language</em> by Jose Miguel R. Salvo, et. al. The Filipino study used many defaults from the Carpalx optimizer, however they added additional study information by performing a finger strength study, gathering 124 samples of finger strength across 30 people.</p> Based on those typing metrics, I adjusted the default finger penalty scores in Carpalx so that the strongest finger, right index, had no penalty, then each increases their penalty based on their relative finger strength. Practically, adding a left pinky score (weakest finger) is pointless because I don't move any of the pinky letters in Norman.
-<pre><code>
+<pre>
 # finger penalties - a positive value indicates additional effort
 # in using that finger (e.g. due to injury)
 # fingers are indexed 0..9 starting with pinky of left hand (0)
@@ -169,9 +169,9 @@ What’s remarkable is that with only 12 keys you get most of the improvement of
 left =  0.74 0.44 0.16 0.07 0
 right = 0 0 0.03 0.29 0.53
 </finger>
-</code></pre>
+</pre>
 <p>Finally, the Carpalx study defaults scoring base finger travel distance based on measurements from a benq x120 keyboard. I use a Macbook Pro keyboard; the Filipino study measured key distance from the home row on a Macbook Pro keyboard instead of using the metrics of other keyboard construction used as the defaults in Carpalx. I adjusted Carpalx configuration for these measurements as well.</p>
-<pre><code>
+<pre>
 # Base scores for Macbook Pro from Filipino article.
 
 #        ~ 1 2 3 4 5 6   7 8 9 0 -   =
@@ -193,7 +193,7 @@ effort = 0 0 0 0 1.8 1.8 0 0 0 0 2
 <row 4>
 effort = 2 2 2 2 3.5 2 2 2 3 3
 </row>
-</code></pre>
+</pre>
 <p>Honestly, I was surprised by the outcome. Through the Salvo/Norman-adjusted Carpalx metric, Norman still scores a 1.960, relatively close to the 1.992 Martin Krzywinski calculated in his comparison to <em>qgmlwy</em>. However, Carpalx finds <strong>no possible improvement</strong> using a base layout of Norman. In other words, when adjusting Carpalx for QASZXCV, pinch gauge measured finger strength, Macbook Pro keyboard measurements, and a corpus I actually typed, Norman is the most fully optimized layout that thousands of comptuations could discover through Carpalx.</p>
 </div></div></div> </div>
 </div>
