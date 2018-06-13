@@ -11,6 +11,10 @@ http://normanlayout.info/files/Norman.zip
 
 http://normanlayout.info/files/Norman.dmg
 
+## Ubuntu Linux configuration
+
+https://help.ubuntu.com/stable/ubuntu-help/keyboard-layouts.html
+
 ## Key assignments
 
 ![Norman](images/norman_mac.png)
