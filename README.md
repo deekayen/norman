@@ -15,6 +15,9 @@ http://normanlayout.info/files/Norman.dmg
 
 https://help.ubuntu.com/stable/ubuntu-help/keyboard-layouts.html
 
+## Android Keyboard (through AnySoftKeyboard)
+See [Android's README](android/README.md).
+
 ## Key assignments
 
 ![Norman](images/norman_mac.png)
