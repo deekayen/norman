@@ -1,20 +1,16 @@
 # How to install the keyboard for usage with AnySoftKeyboard
 
-This keyboard comes with the English dictionary pre-activated. You are able to override this configuration to:
-
-- Disable the built-in English dictionary
-- Add another dictionary and use both simultaneously
-
-For that, see the extra topics at the bottom
+This keyboard comes with the English dictionary pre-activated. You are able to override this configuration after installing; for that, see the details in the bottom.
 
 ## Steps for using Norman with AnySoftKeyboard
 
 1. Install AnySoftKeyboard
 
-You'll be able to get the APK in one of those ways
-- Through the F-Droid store
-- Through Google PlayStore
-- Through the project's [Github's release page](https://github.com/AnySoftKeyboard/AnySoftKeyboard/releases) - just download the latest app-release.apk and install it
+You'll be able to get the APK in one of those ways:
+
+- Through the F-Droid store.
+- Through Google PlayStore.
+- Through the project's [Github's release page](https://github.com/AnySoftKeyboard/AnySoftKeyboard/releases) - just download the latest app-release.apk and install it.
 
 
 2. Install the English language pack pre-built with Norman
@@ -23,9 +19,7 @@ You'll be able to get the APK in one of those ways
 
 The pre-built addon for enabling Norman is distributed through [NormanAddonAnySoftKeyboard.apk](NormanAddonAnySoftKeyboard.apk).
 
-*PS;* It is pre-built for the sake of getting it without having to setup the Android APK and compile for people who don't have it, but you'll be able to compile it by yourself in the below repository if you so choose.
-
-The source for building the language pack is in this repository:
+*PS:* It is pre-built only for the sake of getting it without having to setup the Android SDK and manually compiling, for people who don't have it. Regardless, you're also able to see the source and compile by yourself.
 
 https://github.com/resolritter/NormanLayoutAnysoftKeyboard
 
@@ -51,10 +45,6 @@ As for getting the extra dictionaries, you'll need to install the language addon
 
 ## (Optional) Change the special press-and-hold symbols for each key
 
-This will require you to modify the source code and recompile the APK.
-
-See the repository for instructions on how to do this.
-
-The source for building the language pack is in this repository:
+**This will require you to modify the source code and recompile the APK.**  See the source repository for instructions on how to do this.
 
 https://github.com/resolritter/NormanLayoutAnysoftKeyboard
