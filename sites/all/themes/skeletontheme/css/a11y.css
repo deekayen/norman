@@ -32,3 +32,6 @@ pre,code{white-space:pre-wrap;overflow-wrap:anywhere;overflow:visible;}
 #navigation ul li{float:none;flex:1 1 auto;}
 #navigation ul li a{text-align:center;}
 }
+
+/* 2.5.8 Target size: space out the donation links so each is easy to tap. */
+#main ul.donate-options li{margin:0 0 .5em;}
